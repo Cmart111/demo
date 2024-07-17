@@ -1,10 +1,16 @@
-body{
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    
+    body{
     background-color: rgba(55, 53, 53, 0.144);
 }
 .navbar {
     height: 370px;
+    width: 100%;
     margin-top: 5px;
-    background-color:rgba(255, 251, 251, 0.786);
+    background-color:rgba(255, 251, 251, 0.594);
 
 
 
@@ -17,12 +23,13 @@ body{
 
 .navbar1 {
     height: 70px;
-
+    width: 100%;
     background-color:rgb(255, 251, 251);
     display: flex;
     margin-bottom: 12px;
     justify-content: space-evenly;
     color: rgba(0, 0, 0, 0.685);
+    flex-wrap: wrap;
 
 
 
@@ -150,7 +157,7 @@ span {
     height: 100px;
     background-color:rgb(255, 251, 251);
     display: flex;
-
+    flex-wrap: wrap;
     justify-content: space-evenly;
    
     
@@ -226,6 +233,7 @@ span {
     margin: 2px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 
 }
@@ -237,7 +245,8 @@ span {
     display: flex;
     font-weight: bold;
     font-size: x-large;
-    margin-top: 2px;    
+    margin-top: 2px;
+    flex-wrap: wrap;    
 }
 .electroimg{
     height: 225px;
@@ -252,23 +261,15 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .electroimg2{
     height: 15%;
-    width: 300px;
+    width: 100%;
     
 }
 
-.offerbox{
-    height: 300px;
-    width: 300px;
-    margin-bottom: 34px;
-    background-color:rgba(219, 219, 219, 0.786);
-    border-right: 5px solid rgba(219, 219, 219, 0.786);
-    margin-left: 2px;
-    
 
-}
 h3{
     margin: 5px;
     font-weight:bold;
