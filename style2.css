@@ -1,0 +1,276 @@
+body{
+    background-color: rgba(55, 53, 53, 0.144);
+}
+.navbar {
+    height: 370px;
+    margin-top: 5px;
+    background-color:rgba(255, 251, 251, 0.786);
+
+
+
+    color: rgba(0, 0, 0, 0.685);
+    
+
+
+
+}
+
+.navbar1 {
+    height: 70px;
+
+    background-color:rgb(255, 251, 251);
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: space-evenly;
+    color: rgba(0, 0, 0, 0.685);
+
+
+
+}
+
+.box1 {
+    height: 40px;
+    width: 150px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.box2 {
+    height: 42px;
+    width: 400px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+
+    display: flex;
+    background-color:rgb(212, 207, 207);
+    border-radius: 5px;
+}
+
+.logo {
+    height: 40px;
+    width: 44px;
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.464);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    height: 35.5px;
+    width: 100%;
+    background-color: rgb(211, 217, 217);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: rgba(0, 0, 0, 0.464);
+    text-align: left;
+    font-size: large;
+    border-radius: 5px;
+
+    margin-top: 1px;
+}
+
+.box3 {
+    height: 40px;
+    width: 105px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+
+    border-radius: 12px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+
+.logoin {
+    height: 30px;
+    width: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    padding: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+span {
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box4 {
+    height: 40px;
+    width: 80px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.box5 {
+    height: 40px;
+    width: 200px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box6 {
+    height: 30px;
+    width: 20px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+
+}
+
+.navbar2 {
+    height: 100px;
+    background-color:rgb(255, 251, 251);
+    display: flex;
+
+    justify-content: space-evenly;
+   
+    
+    margin-top: 20px;
+    font-size: small;
+  
+}
+
+.sbox1 {
+    height: 90px;
+    
+    width: 80px;
+    align-items: flex-end;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.navbar3{
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    animation: mosion 5s 1 linear ;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+   
+
+    
+}
+
+.truck{
+    height: 50px;
+    
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    animation: mosion 1s 1;
+    
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+   
+    
+}
+
+
+
+    
+
+@keyframes mosion{
+    0%{
+        left:-1000px;
+       
+
+    }
+    100%{
+        left:0px;
+    }
+}
+
+.electronic{
+    height: 300px;
+    width: 1275px;
+    background-color: white;
+    
+    
+}
+.bestelectronic{
+    height: 250px;
+    width: 1270px;
+    display: flex;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.electronicbox1{
+    height: 240px;
+    width: 1000px;
+    margin-left:4px;
+    margin-top: 1px;
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 2px;    
+}
+.electroimg{
+    height: 225px;
+    width: 220px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(221, 217, 217);
+    margin: 2px;    
+}
+.electroimg1{
+    height: 80%;
+    width: 70%px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.electroimg2{
+    height: 15%;
+    width: 99%;
+    
+}
+
+.offerbox{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 34px;
+    background-color:rgba(219, 219, 219, 0.786);
+    border-right: 5px solid rgba(219, 219, 219, 0.786);
+    
+
+}
+h3{
+    margin: 5px;
+    font-weight:bold;
+    font-size: xx-large;
+
+}
