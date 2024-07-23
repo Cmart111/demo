@@ -1,0 +1,11 @@
+.shoping{
+    display: flex;
+    
+}
+.contect{
+   
+    text-align: center;
+   border-top: 5px solid rgb(230, 16, 51);
+   border-bottom: 5px solid rgb(30, 236, 16);
+
+}
